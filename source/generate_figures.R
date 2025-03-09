@@ -15,7 +15,7 @@ Options:
 --input_dir=<input_dir>		Path (including filename) to raw data
 --out_dir=<output_dir>		Path to directory where the results should be saved
 " -> doc
-
+# install.packages("gridExtra", repos = c(CRAN = 'https://cloud.r-project.org'))
 library(docopt)
 library(gridExtra)
 library(knitr)
