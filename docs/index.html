@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
 width: 0.8em;
 margin: 0 0.8em 0.2em -1em;  vertical-align: middle;
 }
-</style>
+
+div.csl-bib-body { }
+div.csl-entry {
+clear: both;
+margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+margin-left:2em;
+text-indent:-2em;
+}
+div.csl-left-margin {
+min-width:2em;
+float:left;
+}
+div.csl-right-inline {
+margin-left:2em;
+padding-left:1em;
+}
+div.csl-indent {
+margin-left: 2em;
+}</style>
 
 
 <script src="qmd_example_files/libs/clipboard/clipboard.min.js"></script>
@@ -229,7 +249,7 @@ window.Quarto = {
 </section>
 <section id="methods" class="level1" data-number="3">
 <h1 data-number="3"><span class="header-section-number">3</span> Methods</h1>
-<p>The R programming language (R Core Team, 2019) and the following R packages were used to perform the analysis: knitr (Xie 2014), tidyverse (Wickham 2017), and Quarto (Allaire et al 2022). <em>Note: this report is adapted from Timbers (2020).</em></p>
+<p>The R programming language <span class="citation" data-cites="R">(<a href="#ref-R" role="doc-biblioref">R Core Team 2019</a>)</span> and the following R packages were used to perform the analysis: knitr <span class="citation" data-cites="knitr">(<a href="#ref-knitr" role="doc-biblioref">Xie 2014</a>)</span>, tidyverse <span class="citation" data-cites="tidyverse">(<a href="#ref-tidyverse" role="doc-biblioref">Wickham 2017</a>)</span>, and Quarto <span class="citation" data-cites="Allaire_Quarto_2022">(<a href="#ref-Allaire_Quarto_2022" role="doc-biblioref">Allaire et al. 2022</a>)</span>. <em>Note: this report is adapted from <span class="citation" data-cites="ttimbers-horses">Timbers (<a href="#ref-ttimbers-horses" role="doc-biblioref">2020</a>)</span>.</em></p>
 </section>
 <section id="results" class="level1" data-number="4">
 <h1 data-number="4"><span class="header-section-number">4</span> Results</h1>
@@ -322,11 +342,28 @@ Figure 2: Horse populations for the province with the largest standard deviatio
 <!-- Figure 2: Horse populations for the province with the largest standard deviation -->
 <p>In <a href="#fig-horsedeviation" class="quarto-xref">Figure 2</a> we zoom in and look at the province of Saskatchewan, which had the largest spread of values in terms of standard deviation.</p>
 </section>
-<section id="references" class="level1" data-number="5">
-<h1 data-number="5"><span class="header-section-number">5</span> References</h1>
+<section id="references" class="level1 unnumbered" data-number="5">
+
+
 </section>
 
-</main>
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">5 References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-Allaire_Quarto_2022" class="csl-entry" role="listitem">
+Allaire, J. J., Charles Teague, Carlos Scheidegger, Yihui Xie, and Christophe Dervieux. 2022. <span>“<span>Quarto</span>.”</span> <a href="https://doi.org/10.5281/zenodo.5960048">https://doi.org/10.5281/zenodo.5960048</a>.
+</div>
+<div id="ref-R" class="csl-entry" role="listitem">
+R Core Team. 2019. <em>R: A Language and Environment for Statistical Computing</em>. Vienna, Austria: R Foundation for Statistical Computing. <a href="https://www.R-project.org/">https://www.R-project.org/</a>.
+</div>
+<div id="ref-ttimbers-horses" class="csl-entry" role="listitem">
+Timbers, Tiffany. 2020. <em>Historical Horse Population in Canada</em>. <a href="https://github.com/ttimbers/equine_numbers_value_canada_parameters">https://github.com/ttimbers/equine_numbers_value_canada_parameters</a>.
+</div>
+<div id="ref-tidyverse" class="csl-entry" role="listitem">
+Wickham, Hadley. 2017. <em>Tidyverse: Easily Install and Load the ’Tidyverse’</em>. <a href="https://CRAN.R-project.org/package=tidyverse">https://CRAN.R-project.org/package=tidyverse</a>.
+</div>
+<div id="ref-knitr" class="csl-entry" role="listitem">
+Xie, Yihui. 2014. <span>“Knitr: A Comprehensive Tool for Reproducible Research in <span>R</span>.”</span> In <em>Implementing Reproducible Computational Research</em>, edited by Victoria Stodden, Friedrich Leisch, and Roger D. Peng. Chapman; Hall/CRC. <a href="http://www.crcpress.com/product/isbn/9781466561595">http://www.crcpress.com/product/isbn/9781466561595</a>.
+</div>
+</div></section></div></main>
 <!-- /main column -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
