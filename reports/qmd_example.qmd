@@ -32,10 +32,10 @@ Horse population data were sourced from the
 
 # Methods
 
-The R programming language (R Core Team, 2019) 
+The R programming language [@R]
 and the following R packages were used to perform the analysis: 
-knitr (Xie 2014), tidyverse (Wickham 2017), and Quarto (Allaire et al 2022). 
-*Note: this report is adapted from Timbers (2020).*
+knitr [@knitr], tidyverse [@tidyverse], and Quarto [@Allaire_Quarto_2022]. 
+*Note: this report is adapted from @ttimbers-horses.*
 
 # Results
 
