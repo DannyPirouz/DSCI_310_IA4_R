@@ -7,46 +7,8 @@ PDF IS NOT RENDERING:
 4/5 [tbl-results]
 5/5
 output file: qmd_example.knit.md
+`
 
-pandoc 
-  to: latex
-  output-file: qmd_example.tex
-  standalone: true
-  pdf-engine: xelatex
-  variables:
-    graphics: true
-    tables: true
-  default-image-extension: pdf
-  toc: true
-  toc-depth: 3
-  number-sections: true
-
-metadata
-  documentclass: scrartcl
-  classoption:
-    - DIV=11
-    - numbers=noendperiod
-  papersize: letter
-  header-includes:
-    - \KOMAoption{captions}{tableheading}
-  block-headings: true
-  title: 'DSCI 310: Historical Horse Population in Canada'
-  author: Tiffany Timbers & Jordan Bourak
-  editor: source
-  bibliography:
-    - references.bib
-
-
-Rendering PDF
-running xelatex - 1
-  This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex)
-   restricted \write18 enabled.
-  entering extended mode
-
-updating tlmgr
-
-updating existing packages
-finding package for scrartcl.cls
 ERROR: Your TexLive version is not updated enough to connect to the remote repository and download packages. Please update your installation of TexLive or TinyTex.
 
 Underlying message:
@@ -73,7 +35,7 @@ See https://tug.org/texlive/upgrade.html for details.
     at async file:///C:/Users/Danny/AppData/Local/Programs/Quarto/bin/quarto.js:78314:31
     at async withTimingAsync (file:///C:/Users/Danny/AppData/Local/Programs/Quarto/bin/quarto.js:16879:25)
     at async Object.complete (file:///C:/Users/Danny/AppData/Local/Programs/Quarto/bin/quarto.js:78307:13)
-    at async Object.onPostProcess (file:///C:/Users/Danny/AppData/Local/Programs/Quarto/bin/quarto.js:85808:36)`
+    at async Object.onPostProcess (file:///C:/Users/Danny/AppData/Local/Programs/Quarto/bin/quarto.js:85808:36)
 
 ## DSCI 310 individual assignment on Quarto reproducible reports using R
 
