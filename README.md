@@ -1,3 +1,5 @@
+Images in the report on the web do not render for some reason, but when rendering from Makefile everything works properly.
+
 PDF IS NOT RENDERING:
 - Command: `quarto render reports/qmd_example.qmd --to pdf`
 - Output & Error Message: `processing file: qmd_example.qmd
